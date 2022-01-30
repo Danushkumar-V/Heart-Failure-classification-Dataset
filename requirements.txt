@@ -1,6 +1,6 @@
 ﻿matplotlib==3.5.1
 matplotlib-inline==0.1.3
-numpy==1.22.1
+numpy==1.21.5
 pandas==1.4.0
 pandas-profiling==3.1.0
 pickle-mixin==1.0.2
