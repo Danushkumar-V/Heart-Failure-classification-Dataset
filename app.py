@@ -213,7 +213,7 @@ with dataset_descrb:
     st.markdown(fourth_para_2, unsafe_allow_html=True)
     st.markdown(fourth_para_3, unsafe_allow_html=True)
     st.subheader("Let's visualize the data!")
-    path = "D:\DK\Dev\Heart-Failure-Prediction-Dataset\heart.csv"
+    path = "heart.csv"
     df = get_data(path)
     df2 = tp.typeconvo(df)
     st.write('---')
