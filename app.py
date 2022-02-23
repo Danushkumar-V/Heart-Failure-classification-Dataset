@@ -268,7 +268,7 @@ with prediction:
     new_data_after_typeconv = tp.typeconvo(new_df)
 
     predict_value = model.predict(new_data_after_typeconv)
-    result = st.button("Predict")
+    result = st.button("Submit")
     if result:
         if predict_value == 1:
             st.subheader('You have been identified with some heart disease :pensive:')
